@@ -4,6 +4,8 @@
 
 > Built in a 24-hour build sprint. All data is fictional ("PayNest" is a made-up wallet). This project is not legal, regulatory or financial advice.
 
+   🎥 **[Watch the 3-minute demo](https://youtu.be/OuWzN0-LF6Y)**
+
 ## The problem
 
 When a fintech team wants to build something new (say, a better KYC onboarding flow), someone has to turn the idea into a real plan: requirements, user stories, acceptance criteria, risks. It takes hours, and in fintech a single missed detail, such as how ID documents are stored, can become a privacy or compliance issue.
