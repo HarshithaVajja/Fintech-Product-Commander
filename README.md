@@ -4,12 +4,6 @@
 
 > Built in a 24-hour build sprint. All data is fictional ("PayNest" is a made-up wallet). This project is not legal, regulatory or financial advice.
 
-🎥 **[Watch the 3-minute demo](ADD-YOUR-VIDEO-LINK-HERE)**
-
-![Connected agents in Copilot Studio](screenshots/01-build-connected-agents.png)
-
----
-
 ## The problem
 
 When a fintech team wants to build something new (say, a better KYC onboarding flow), someone has to turn the idea into a real plan: requirements, user stories, acceptance criteria, risks. It takes hours, and in fintech a single missed detail, such as how ID documents are stored, can become a privacy or compliance issue.
@@ -39,6 +33,9 @@ flowchart TD
 | **FinTech Product Commander** | Entry point. Checks inputs, creates a Task ID and brief, routes work, writes the user journey and implementation plan, compiles the final answer and Decision Log. | Write requirements or review them itself while specialists are available |
 | **Requirements Agent** | Problem, users, scope, constraints, success metrics, up to 12 user stories, up to 15 Given/When/Then acceptance criteria. | Approve its own work (status is always `Draft`) |
 | **QA and Risk Agent** | Reviews against a 9-point checklist (completeness, testability, consistency, coverage, security/privacy, fraud, compliance triggers, grounding, revision check). Returns `Approved` or `Rejected` with numbered corrections. | Rewrite the work, give legal advice, or approve to be polite |
+
+<img width="1821" height="783" alt="01-build-connected-agents" src="https://github.com/user-attachments/assets/06655e5b-d25b-41a9-9aed-0bf63bc116ef" />
+
 
 The three agents share one knowledge file and one **Handoff Schema**, a 12-field contract (Task ID, Objective, Target users, Inputs, Constraints, Assumptions, Requested deliverable, Acceptance criteria, Risks, Confidence, Open questions, Status) that every handoff must follow.
 
