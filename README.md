@@ -4,7 +4,7 @@
 
 > Built in a 24-hour build sprint. All data is fictional ("PayNest" is a made-up wallet). This project is not legal, regulatory or financial advice.
 
-   🎥 **[Watch the 3-minute demo](https://youtu.be/OuWzN0-LF6Y)**
+   🎥 **[Watch the demo (4:40)](https://youtu.be/NgDc4BPzeOg)**
 
 ## The problem
 
